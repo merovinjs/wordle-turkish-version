@@ -1,6 +1,7 @@
 const tileDisplay=document.querySelector('.tile-container')
 const keyboard=document.querySelector('.key-container')
-const messageDisplay=document.querySelector('.message-container')
+const messageDisplay=document.querySelector('.message-container');
+const messag=document.querySelector('.messag')
 
 const wordles =['AHMET','BURAK','MURAT','ÖMER','FATİH','ORHAN','KEMAL','OSMAN','TOLGA','ALPER','DENİZ','SAMED','SEMİH','KADİR','SEDAT','MÜJDE','İLKER','HARUN','ERHAN','YAKUP','CANER','İSMET','VEDAT','FARUK','BEYZA','SELİN','DİLAN','SİBEL','SİMGE','SERAP','YAREN','GAMZE','CANSU','AYFER','HACER','AHSEN','AYSUN','SEVGİ','LEMAN','YELİZ','TUĞÇE',]
 const wordle=wordles[(Math.random()*wordles.length)|0]
@@ -42,6 +43,7 @@ const container=document.querySelector('.key-container');
 container.addEventListener('click',function(e){
     if(e.target.classList.contains('btn')){
         e.target.classList.add('selected')
+        displayMessage();
     }
 })
 const handleClick =(letter)=>{
@@ -143,4 +145,10 @@ rowTiles.forEach((tile,index)=>{
     },500*index)
 })
   
+}
+function displayMessage(){
+    messag.classList.add('show');
+    setTimeout(function(){
+messag.classList.remove('show')
+    },2000)
 }
