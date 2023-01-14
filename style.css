@@ -5,7 +5,8 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 body{
-    background-color: #54547e;
+    margin-left: 13px;
+    background-color: #121213;
     animation-name: example;
     animation-duration: 8s;
     animation-name: example1;
@@ -14,10 +15,11 @@ body{
 .title-container{
     text-align: center;
     font-style: italic;
-    width: 410px;
+    width: 310px;
+    margin-bottom: 15px;
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    background-color: #0ea701;
+    background-color: #16850c;
     position: relative;
     border-bottom:solid 1px #020249;
     animation: mymove 5s ;
@@ -26,12 +28,14 @@ body{
   
 }
 .key-container{
-    width: 450px;
+    margin-top: 15px;
+    width: 350px;
     display: flex;
     flex-wrap: wrap;
 }
 .game-container{
-    height: 90vh;
+   
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -39,12 +43,13 @@ body{
 }
 
 .key-container button{
-    width: 40px;
+    
+    width: 32px;
     height: 38px;
     border-radius: 3px;
     border:none;
     background-color: #818384;
-    margin: 0.92px;
+    margin: 0.99px;
     cursor: pointer;
     font-size: large;
     
@@ -57,16 +62,22 @@ body{
 }
 
 .key-container button:nth-child(30){
-    margin-left: 80px;
+    margin-left: 30px;
 
 }
 .key-container button:nth-child(1){
-    margin-left: 42px;
+    margin-left: 22px;
 
 }
 .key-container button:nth-child(30),
-.key-container button:nth-child(31){
-    width: 68px;
+.key-container button:nth-child(31),
+.key-container button:nth-child(32){
+    margin-top: 5px;
+    margin-right: 8px;
+    width: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .tile-container div{
     display:flex;
@@ -74,7 +85,7 @@ body{
 }
 .tile-container .tile{
     width: 64px;
-    height: 62px;
+    height: 52px;
     border: 2px solid #087c0d;
     box-sizing: border-box;
     display: flex;
@@ -162,4 +173,15 @@ body{
 }
 #message.show{
     transform: translateY(-80px);
+}
+#SİL{
+    background-color: #020249;
+}
+#DENE{
+    background-color: #020249;
+
+}
+#YENİ-OYUN{
+    background-color: #020249;
+
 }
