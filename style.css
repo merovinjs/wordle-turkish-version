@@ -5,7 +5,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 body{
-    background-color: #8d8de4;
+    background-color: #54547e;
     animation-name: example;
     animation-duration: 8s;
     animation-name: example1;
@@ -17,9 +17,9 @@ body{
     width: 410px;
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    background-color: #538d4e;
+    background-color: #0ea701;
     position: relative;
-    border-bottom:solid 1px #3a3a3c;
+    border-bottom:solid 1px #020249;
     animation: mymove 5s ;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
