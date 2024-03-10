@@ -108,8 +108,8 @@ if(currentTile >4){
         return
     }else{
         if (currentRow>=5){
-            isGameOver=false
-            showMessage('GAME OVER')
+            isGameOver=true
+            showMessage(wordle)
             return
         }
         if(currentRow < 5){
