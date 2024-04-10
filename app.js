@@ -5,7 +5,7 @@ const messageDisplay=document.querySelector('.message-container');
 const messag=document.querySelector('.messag')
 
 const wordles =['AHMET','BURAK','MURAT'
-                ,'FATİH','ORHAN','KEMAL','OSMAN','TOLGA','ALPER','DENİZ','SAMED','SEMİH','KADİR','SEDAT','MÜJDE','İLKER','HARUN','ERHAN','YAKUP','CANER','İSMET','VEDAT','FARUK','BEYZA','SELİN','DİLAN','SİBEL','SİMGE','SERAP','YAREN','GAMZE','CANSU','AYFER','HACER','AHSEN','AYSUN','SEVGİ','LEMAN','YELİZ','TUĞÇE',]
+                ,'FATİH','ORHAN','KEMAL','OSMAN','BİLAL','TOLGA','ALPER','DENİZ','SAMED','SEMİH','KADİR','SEDAT','MÜJDE','İLKER','HARUN','ERHAN','YAKUP','CANER','İSMET','VEDAT','FARUK','BEYZA','SELİN','DİLAN','SİBEL','SİMGE','SERAP','YAREN','GAMZE','CANSU','AYFER','HACER','AHSEN','AYSUN','SEVGİ','LEMAN','YELİZ','TUĞÇE',]
 const wordle=wordles[(Math.random()*wordles.length)|0]
 const keys=['A','E','I','İ','O','Ö','U','Ü','B','C','Ç','D','F','G','Ğ','H','J','K','L','M','N','S','Ş','T','P','R','V','Y','Z','SİL','DENE','YENİ-OYUN']
 
